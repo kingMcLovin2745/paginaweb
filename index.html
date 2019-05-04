@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>House Stark</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target="#menu">
+
+<!--- Home -->
+<div id="home">
+
+<!--- NAV BAR -->
+<nav class="navbar navbar-dark navbar-expand-md fixed-top">
+<div class="container-fluid">
+  <a class="navbar-brand" href="#"><img src="img/stark2.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+    <span class="navbar--toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="menu">
+    <ul class="navbar-nav ml-auto">
+      <li class="navbar-item">
+        <a class="nav-link" href="#home">Yo Quiero Ir A Casa, A Casa...</a>
+      </li>
+      <li class="navbar-item">
+        <a class="nav-link" href="#about">About House Stark</a>
+      </li>
+      <li class="navbar-item">
+        <a class="nav-link" href="#map">Westeros</a>
+      </li>
+      <li class="navbar-item">
+        <a class="nav-link" href="#houses">Houses</a>
+      </li>
+      <li class="navbar-item">
+        <a class="nav-link" href="#info">Info</a>
+      </li>
+
+    </ul>
+    
+  </div>
+</div>
+</nav>    
+
+<!--- Landing Page -->
+<div class="landing">
+  <div class="home-wrap">
+    <div class="home-inner">
+    </div>
+  </div>
+</div>
+<!--- Texto central -->
+<div class="caption center-block text-center">
+  <h3> House Stark</h3>
+  <a class="btn btn-outline-light" href="#about">Winter is Coming</a>
+</div>
+<!--- Acerca de -->
+<div id="about">
+<div class="jumbotron"> <!---Para sección gris-->
+  <h3 class="heading">About House Stark</h3>
+<div class="row">
+  <div class="col-md-4 text-center">
+    <h4>Lord</h4>
+    <p>Jon Snow<br>Sansa Stark</p>
+  </div>
+    <div class="col-md-4 text-center">
+    <h4>Allegiance</h4>
+    <p> House Targaryen<br>House Baratheon of King's Landing<br>Sovereign</p>
+  </div>
+    <div class="col-md-4 text-center">
+    <h4>Vassals</h4>
+    <strong>Great Houses</strong>
+    <p>House Arryn<br>House Tully</p>
+    <strong>Houses of the North</strong>
+    <p>House Glover<br>House Hornwood<br>House Mazin<br>House Mormont<br>House Reed<br>House Tallhart<br>House Cerwyn<br>House Dustin<br>House Ryswell<br>House Manderly<br>House Umber<br>House Dormund<br>House Seaworth<br>House Karstark<br>House Bolton</p>
+    <strong>Houses of the Riverlands</strong>
+    <p>House Bracken<br>House Mallister<br>House Frey</p>
+    <strong>Houses of the Vale</strong>
+    <p>House Royce<br>House Baelish</p>
+  </div>
+</div>
+</div>
+</div>
+<!--- Westeros -->
+<div id="map">
+  <h3 class="heading">Westeros</h3>
+  <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-6 text-center">
+    <img src="img/w.png">
+  </div>
+</div>
+</div>
+<!-- <div id="map">
+  <h3 class="heading">Westeros</h3>
+  <img class="center" src="img/w.png">
+</div> -->
+<!--- houses -->
+<div id="houses">
+ <div class="container-fluid padding">
+   <h3 class="heading">Houses</h3>
+<div class="row no-padding">
+  <div class="col-md-1"></div>
+  <div class="col-md-5">
+    <img class="houses" src="img/t.png">
+    <body>
+      <input type="button" onclick="InfoT()" name="OK" value="<-- Click For Info">
+      <script src="script.js"></script>
+    </body>
+  </div>
+    <div class="col-md-6">
+    <img class="houses" src="img/m.png">
+    <body>
+      <input type="button" onclick="InfoM()" name="OK" value="<-- Click For Info">
+      <script src="script.js"></script>
+    </body>
+  </div>
+    <div class="col-md-1"></div> 
+    <div class="col-md-5">
+    <img class="houses" src="img/g.png">
+    <body>
+      <input type="button" onclick="InfoG()" name="OK" value="<-- Click For Info">
+      <script src="script.js"></script>
+    </body>
+  </div>
+    <div class="col-md-6">
+    <img class="houses" src="img/b.png">
+    <body>
+      <input type="button" onclick="InfoB()" name="OK" value="<-- Click For Info">
+      <script src="script.js"></script>
+    </body>
+  </div>
+</div>
+</div> 
+</div>
+<!--- Info -->
+<div id="info">
+<div class="jumbotron"> <!---Para sección gris-->
+<div class="container-fluid footer">
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6 text-center">
+    <img src="img/stark2.png">
+    <p>House Stark of Winterfell is a Great House of Westeros, ruling over the vast region known as the North from their seat in Winterfell.</p>
+    <strong>Founder</strong>
+    <p>Bran the Builder</p>
+    <strong>Sigil</strong>
+    <p>A grey direwolf on a white fiel</p>
+    <strong>Religion</strong>
+    <p>Old Gods of the Forest<br>Faith of the Seven</p>
+    <strong>Age</strong>
+    <p>Over 8,000 years</p>
+    <body>
+      <input type="button" onclick="Info()" name="OK" value="Creator">
+      <script src="script.js"></script>
+    </body>
+  </div>
+</div>
+</div>    
+</div>
+</div>
+<!--- Script Source Files -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
